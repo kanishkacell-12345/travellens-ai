@@ -1,0 +1,28 @@
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python environments if a future ML service is added
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node dependencies if a future backend is added
+node_modules/
+
+# Generated model files and large datasets
+models/*.tflite
+models/*.h5
+models/*.pt
+datasets/private/
