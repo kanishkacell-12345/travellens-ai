@@ -1,0 +1,87 @@
+
+[
+  {
+    "id": "taj-mahal",
+    "name": "Taj Mahal",
+    "country": "India",
+    "region": "Agra, Uttar Pradesh",
+    "category": "Monument",
+    "period": "Mughal period",
+    "summary": "A white-marble mausoleum commissioned by Mughal emperor Shah Jahan in memory of Mumtaz Mahal.",
+    "history": "The Taj Mahal is a major example of Mughal architecture, combining elements of Indian, Persian, and Islamic design.",
+    "localStory": "Local stories and oral traditions can be added after research and review with credible sources or local contributors.",
+    "travelTip": "Check official visitor information, entry rules, and visiting hours before your trip.",
+    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=900&q=80",
+    "source": "Add an official or trusted heritage source before publishing as verified."
+  },
+  {
+    "id": "eiffel-tower",
+    "name": "Eiffel Tower",
+    "country": "France",
+    "region": "Paris",
+    "category": "Landmark",
+    "period": "19th century",
+    "summary": "A landmark iron tower built for the 1889 Exposition Universelle in Paris.",
+    "history": "The Eiffel Tower was designed by the engineering company led by Gustave Eiffel and became one of Paris's best-known landmarks.",
+    "localStory": "Community stories about the landmark can be added after checking their origin and context.",
+    "travelTip": "Check official ticket availability and access information before visiting.",
+    "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=900&q=80",
+    "source": "Add an official or trusted heritage source before publishing as verified."
+  },
+  {
+    "id": "statue-of-liberty",
+    "name": "Statue of Liberty",
+    "country": "United States",
+    "region": "New York",
+    "category": "Monument",
+    "period": "19th century",
+    "summary": "A monument on Liberty Island widely associated with freedom and welcome.",
+    "history": "The statue was a gift from France to the United States and was dedicated in 1886.",
+    "localStory": "Add documented community perspectives and historical context after review.",
+    "travelTip": "Review official ferry, security, and visitor-access instructions.",
+    "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=900&q=80",
+    "source": "Add an official or trusted heritage source before publishing as verified."
+  },
+  {
+    "id": "red-fort",
+    "name": "Red Fort",
+    "country": "India",
+    "region": "Delhi",
+    "category": "Historic fort",
+    "period": "Mughal period",
+    "summary": "A historic fort complex in Delhi associated with Mughal rule.",
+    "history": "The Red Fort was commissioned by Shah Jahan in the 17th century when the Mughal capital shifted to Shahjahanabad.",
+    "localStory": "Add local traditions only after recording their source and distinguishing folklore from documented history.",
+    "travelTip": "Check current opening hours and monument access requirements.",
+    "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=900&q=80",
+    "source": "Add an official or trusted heritage source before publishing as verified."
+  },
+  {
+    "id": "basilica-bom-jesus",
+    "name": "Basilica of Bom Jesus",
+    "country": "India",
+    "region": "Old Goa, Goa",
+    "category": "Church and heritage site",
+    "period": "16th century",
+    "summary": "A historic church in Old Goa known for its Baroque architecture and religious heritage.",
+    "history": "The Basilica of Bom Jesus is part of the historic churches and convents of Goa, recognized as a UNESCO World Heritage property.",
+    "localStory": "Add regional oral traditions with attribution and community review.",
+    "travelTip": "Respect worship practices, visitor guidance, and photography rules.",
+    "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=900&q=80",
+    "source": "Add an official or trusted heritage source before publishing as verified."
+  },
+  {
+    "id": "amsterdam-canals",
+    "name": "Canal Ring",
+    "country": "Netherlands",
+    "region": "Amsterdam",
+    "category": "Historic urban landscape",
+    "period": "Dutch Golden Age",
+    "summary": "Amsterdam's historic canal district reflects the city's development as a major trading centre.",
+    "history": "The 17th-century canal ring is an important part of Amsterdam's urban history and heritage.",
+    "localStory": "Invite local contributors to share stories with dates, sources, and context for review.",
+    "travelTip": "Follow local pedestrian and cycling rules, and check official transport information.",
+    "image": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=900&q=80",
+    "source": "Add an official or trusted heritage source before publishing as verified."
+  }
+]
