@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TravelLens AI helps travellers discover landmarks, heritage, and local stories.">
+  <title>TravelLens AI | Global Smart Heritage Explorer</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">TravelLens <span>AI</span></a>
+    <nav>
+      <a href="#discover">Discover</a>
+      <a href="#story">Local Stories</a>
+      <a href="#safety">Travel Safety</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow">GLOBAL SMART HERITAGE EXPLORER</p>
+      <h1>Every landmark has a story.</h1>
+      <p>
+        Discover the history, culture, and local stories behind
+        the places you explore.
+      </p>
+      <a class="button primary" href="#discover">Explore landmarks</a>
+      <p class="notice">
+        Prototype: landmark records and images are illustrative.
+        AI recognition is not enabled in this version.
+      </p>
+    </section>
+
+    <section class="section" id="discover">
+      <div class="section-heading">
+        <p class="eyebrow">DISCOVER</p>
+        <h2>Find your next landmark</h2>
+        <p>Search by landmark name, country, or destination.</p>
+      </div>
+
+      <label for="searchInput">Search destinations</label>
+      <input
+        id="searchInput"
+        type="search"
+        placeholder="Try Taj Mahal or India"
+        autocomplete="off"
+      >
+
+      <div class="upload-panel">
+        <h3>Explore with a photo</h3>
+        <p>
+          Select a photo to preview it. This prototype does not
+          identify landmarks from images automatically.
+        </p>
+        <label for="photoInput">Choose a landmark photo</label>
+        <input id="photoInput" type="file" accept="image/*">
+        <img id="photoPreview" class="photo-preview"
+             alt="Your selected landmark photo preview" hidden>
+      </div>
+
+      <p id="resultCount" class="muted" aria-live="polite"></p>
+      <div id="landmarkGrid" class="landmark-grid"></div>
+      <p id="emptyMessage" hidden>No matching landmarks found.</p>
+    </section>
+
+    <section class="section detail-section" id="details">
+      <div class="section-heading">
+        <p class="eyebrow">UNDERSTAND</p>
+        <h2>Landmark explorer</h2>
+      </div>
+      <div id="landmarkDetails" class="detail-card">
+        <h3>Select a landmark</h3>
+        <p>Its historical details and travel information will appear here.</p>
+      </div>
+    </section>
+
+    <section class="section story-section" id="story">
+      <div class="section-heading">
+        <p class="eyebrow">COMMUNITY KNOWLEDGE</p>
+        <h2>Share a local story</h2>
+        <p>
+          Contribute a cultural memory, local tradition, or oral story.
+          Submissions in this prototype are not saved to a server.
+        </p>
+      </div>
+
+      <form id="storyForm">
+        <label for="storyLandmark">Landmark or location</label>
+        <input id="storyLandmark" name="landmark" required
+               maxlength="100" placeholder="Enter a place">
+
+        <label for="storyTitle">Story title</label>
+        <input id="storyTitle" name="title" required
+               maxlength="100" placeholder="Give your story a title">
+
+        <label for="storyText">Your story</label>
+        <textarea id="storyText" name="story" required
+                  minlength="20" maxlength="1500" rows="5"
+                  placeholder="Share the story and where you learned it"></textarea>
+
+        <label class="checkbox-label">
+          <input id="storyAccuracy" type="checkbox" required>
+          I understand that this story must be reviewed before being
+          presented as verified historical information.
+        </label>
+
+        <button class="button primary" type="submit">Preview contribution</button>
+        <div id="storyFeedback" class="feedback" aria-live="polite"></div>
+      </form>
+    </section>
+
+    <section class="section safety-section" id="safety">
+      <div class="section-heading">
+        <p class="eyebrow">TRAVEL SMARTER</p>
+        <h2>Stay safe and connected</h2>
+        <p>
+          Plan ahead and use trusted sources when exploring an unfamiliar place.
+        </p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>Emergency services</h3>
+          <p>
+            Check official local emergency numbers and services before travelling.
+            Live emergency lookup is not connected in this prototype.
+          </p>
+        </article>
+        <article class="feature-card">
+          <h3>Nearby attractions</h3>
+          <p>
+            Discover destinations in the landmark records. Live location,
+            nearby search, and navigation require a maps integration.
+          </p>
+        </article>
+        <article class="feature-card">
+          <h3>More travel tools</h3>
+          <p>
+            Multilingual assistance, OCR, currency conversion, and offline
+            recognition are planned integrations.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section roadmap">
+      <p class="eyebrow">OUR VISION</p>
+      <h2>From discovery to meaningful travel</h2>
+      <p>
+        Trusted heritage knowledge + verified local voices +
+        AI travel assistance in one platform.
+      </p>
+      <ul>
+        <li>Build a curated landmark database.</li>
+        <li>Integrate image recognition using a trained model.</li>
+        <li>Add maps, routes, and nearby services.</li>
+        <li>Introduce moderated community contributions.</li>
+        <li>Explore offline recognition and multilingual support.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><strong>TravelLens AI</strong> — Global Smart Heritage Explorer</p>
+    <p>Student project prototype. Verify travel and safety information
+       with official sources.</p>
+  </footer>
+</body>
+</html>
