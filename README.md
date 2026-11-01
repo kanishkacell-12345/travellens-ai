@@ -107,6 +107,47 @@ The included records are starter examples. Check historical claims, image permis
 
 Community stories must be attributed appropriately and reviewed before being described as verified. Do not publish private information or unverified emergency details.
 
+
+## Travel and Landmark Dataset
+
+TravelLens AI includes a structured dataset of Indian tourist destinations.
+
+### Indian Places Dataset
+
+File: `data/indian_places.csv`
+
+The dataset contains 325 tourist-place records and 16 attributes, including:
+
+- Zone, state, and city
+- Landmark or tourist-place name
+- Place category and establishment year
+- Estimated visiting time
+- Google review rating and review count
+- Entrance fee in INR
+- Airport availability within a 50 km radius
+- Weekly closing day
+- Significance and DSLR photography permission
+- Best time to visit
+
+This dataset is intended to support destination discovery,
+landmark search, and future travel recommendation features.
+
+### Existing Landmark Records
+
+File: `data/landmarks.json`
+
+Contains sample landmark descriptions, historical information,
+local-story notes, and travel tips used by the current prototype.
+
+### Dataset Limitations
+
+Dataset information should be checked for accuracy and freshness
+before being used for travel decisions. Review ratings, entrance
+fees, timings, and other details may change.
+
+Dataset source and licensing information should be documented
+before public or commercial reuse.
+
 ## Current Limitations
 
 - No trained landmark-recognition model.
