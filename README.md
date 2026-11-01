@@ -77,6 +77,7 @@ TravelLens-AI/
 ├── css/style.css
 ├── js/app.js
 ├── data/landmarks.json
+├── data/indian_places.csv.xls   
 ├── docs/architecture.md
 ├── docs/limitations.md
 ├── docs/demo-script.md
